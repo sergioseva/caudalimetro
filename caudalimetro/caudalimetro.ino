@@ -182,7 +182,7 @@ boolean buttonProcessMedicion(int b) {
       case KEYPAD_SELECT:
         return true;
     }
-    //mostrarDatos();
+    
     return false;
 }
 
@@ -554,7 +554,7 @@ void mostrarArrayMediciones() {
         }
        //buttonPressed=lcd.button();  //I splitted button reading and navigation in two procedures because 
       }
- 
+     indice=0;
      exitmenu=false;
 }
 void loop() {
